@@ -1,0 +1,1447 @@
+[
+	{
+		"timestamp": 1635144721769,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 59.05322186764619
+			}
+		]
+	},
+	{
+		"timestamp": 1635172988897,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 56.66047280828931
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 70.02264191901654
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 36.13938981640551
+			}
+		]
+	},
+	{
+		"timestamp": 1635208036755,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 73.45804919856845
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 59.076622532787745
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 38.156170147534574
+			}
+		]
+	},
+	{
+		"timestamp": 1635344315150,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 30.99915509916159
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 74.91337172285937
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 38.23749206490838
+			}
+		]
+	},
+	{
+		"timestamp": 1635407197722,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 34.26730480269282
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 56.30887792334299
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 55.46624112785521
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 43.78718946838704
+			}
+		]
+	},
+	{
+		"timestamp": 1635476513730,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 54.63669787624724
+			},
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 25.570994118363565
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 33.56651511394646
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 71.63897622327357
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 53.99483631795792
+			}
+		]
+	},
+	{
+		"timestamp": 1635765394157,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 67.52370233285434
+			},
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 66.86896995823365
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 47.51785687806523
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 42.490309397573824
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 67.29865638406933
+			}
+		]
+	},
+	{
+		"timestamp": 1635772486386,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 68.98866496404851
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 48.64852982607796
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 25.360593804056563
+			},
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 57.78453869492039
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 71.39001068498814
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 69.85134892135085
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 45.89216939203422
+			}
+		]
+	},
+	{
+		"timestamp": 1635792653884,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 56.89542848731868
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 63.84604300991852
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 63.33553572027505
+			},
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 36.255861702570954
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 55.946948462665006
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 42.47163531033227
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 25.547622279102853
+			}
+		]
+	},
+	{
+		"timestamp": 1635843654682,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 52.87369066872031
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 43.94155912047718
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 43.27375711311502
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 67.65416802585611
+			},
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 65.57452847063983
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 56.481133143874345
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 52.675705475851
+			}
+		]
+	},
+	{
+		"timestamp": 1635875054273,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 36.83928391977924
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 73.45463706618676
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 50.866247734348036
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 56.4865342646183
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 57.762113280890304
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 26.23735668295446
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 54.356272324154844
+			}
+		]
+	},
+	{
+		"timestamp": 1635974084133,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 63.36378645402094
+			},
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 53.324290105309736
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 27.887382256607708
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 41.85354582802546
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 59.1251371016002
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 66.44528612391072
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 43.75765981398094
+			}
+		]
+	},
+	{
+		"timestamp": 1636089678813,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 71.73698278060797
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 71.32857648771196
+			},
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 40.699048761767656
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 64.08553396583238
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 71.91186790142885
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 41.38124836474786
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 41.560375484298376
+			}
+		]
+	},
+	{
+		"timestamp": 1636166222010,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 49.97519509697796
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 35.59530760928475
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 35.707989316421006
+			},
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 31.4109511730413
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 49.85031134511835
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 47.64332277755838
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 33.18775978978887
+			}
+		]
+	},
+	{
+		"timestamp": 1636186996035,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 28.80510305496511
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 28.656785785466422
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 41.9790824683088
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 32.574119478565635
+			},
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 30.586841253141962
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 34.39739370369463
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 40.5760847781857
+			}
+		]
+	},
+	{
+		"timestamp": 1636360648809,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 58.88135171978539
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 66.06059546907017
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 43.361581146097215
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 70.8012366369797
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 71.18024437108667
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 35.425241002061846
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 34.71110408801561
+			}
+		]
+	},
+	{
+		"timestamp": 1636514660972,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 74.10217023103662
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 63.66162035094499
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 61.73449462521645
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 40.41935333701924
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 25.78604200106507
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 72.38306236522317
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 33.43602935043049
+			}
+		]
+	},
+	{
+		"timestamp": 1636540033926,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 66.0068819339195
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 38.13565008059504
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 49.83289198872711
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 64.58059527820511
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 37.30097737794644
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 47.43697360944374
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 44.70177387739239
+			}
+		]
+	},
+	{
+		"timestamp": 1636983316225,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 70.24198711461167
+			},
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 54.09795537014189
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 51.09800078860333
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 43.58918253067836
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 47.783319234894385
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 45.48460402095124
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 34.94041670656348
+			}
+		]
+	},
+	{
+		"timestamp": 1636995479453,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 58.1218029229636
+			},
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 53.6143826572318
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 31.00704042786071
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 59.53743598841594
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 60.37631098199765
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 28.29504658388682
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 66.00637110069486
+			}
+		]
+	},
+	{
+		"timestamp": 1637087587629,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 47.24929250001706
+			},
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 55.6186135299652
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 69.6797432825572
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 37.11812063243282
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 25.889211107662035
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 67.94356036335276
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 38.92296310751206
+			}
+		]
+	},
+	{
+		"timestamp": 1637102380118,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 35.24607425933094
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 36.339415077991845
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 63.93266192596021
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 57.831307250651044
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 40.661318585885475
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 65.85891938355905
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 52.121514355709486
+			}
+		]
+	},
+	{
+		"timestamp": 1637145597106,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 59.49297317963834
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 50.26540716367404
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 37.05546884959795
+			},
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 46.57795919560502
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 27.462252214221994
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 26.34907001716251
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 43.63101918926158
+			}
+		]
+	},
+	{
+		"timestamp": 1637201507725,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 74.56365546906272
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 68.54752561351842
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 45.854492717350915
+			},
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 50.21427397518683
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 46.77418779220525
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 36.10684775617581
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 42.972713979834296
+			}
+		]
+	},
+	{
+		"timestamp": 1637335764006,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 54.596863324873844
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 66.48900563441609
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 57.20785202011713
+			},
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 61.697523562095604
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 44.32174260566592
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 62.52908169255838
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 46.04056946567427
+			}
+		]
+	},
+	{
+		"timestamp": 1637380343611,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 61.10023805808271
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 32.36050815219501
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 57.480390258400014
+			},
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 31.519398896713945
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 32.0239880321942
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 34.428848019338844
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 37.503190797431905
+			}
+		]
+	},
+	{
+		"timestamp": 1637477366805,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 48.3791868482094
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 33.2477182293661
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 73.40333858400845
+			},
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 30.194871300784975
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 67.64001974619663
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 66.00057522628175
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 59.30627370476348
+			}
+		]
+	},
+	{
+		"timestamp": 1637583421706,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 61.54536944713139
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 63.688217529771165
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 28.449609424621837
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 32.68067801685079
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 62.64962602232994
+			},
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 45.109015213076844
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 74.84066097805534
+			}
+		]
+	},
+	{
+		"timestamp": 1637629603584,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 64.4684897356833
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 35.167347947292114
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 65.49745316751981
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 61.72988580881219
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 50.59128963197868
+			},
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 35.368806359394554
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 44.445430245673855
+			}
+		]
+	},
+	{
+		"timestamp": 1637632874586,
+		"balancesByCurrency": [
+			{
+				"currency": {
+					"id": "ethereum",
+					"symbol": "ETH"
+				},
+				"balance": 41.753157220062405
+			},
+			{
+				"currency": {
+					"id": "dogecoin",
+					"symbol": "DOGE"
+				},
+				"balance": 71.49046713275249
+			},
+			{
+				"currency": {
+					"id": "terra-luna",
+					"symbol": "LUNA"
+				},
+				"balance": 59.16532923404154
+			},
+			{
+				"currency": {
+					"id": "uniswap",
+					"symbol": "UNI"
+				},
+				"balance": 48.38925132445986
+			},
+			{
+				"currency": {
+					"id": "safemoon",
+					"symbol": "SAFEMOON"
+				},
+				"balance": 66.74072175773304
+			},
+			{
+				"currency": {
+					"id": "litecoin",
+					"symbol": "LTC"
+				},
+				"balance": 31.390336220012383
+			},
+			{
+				"currency": {
+					"id": "dash",
+					"symbol": "DASH"
+				},
+				"balance": 73.3996034323104
+			}
+		]
+	}
+]
