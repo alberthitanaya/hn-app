@@ -16,10 +16,7 @@ import { ColorSchemeName, Pressable } from "react-native";
 
 import Colors from "../constants/Colors";
 import useColorScheme from "../hooks/useColorScheme";
-import CoinDetailScreen from "../screens/CoinDetailScreen";
-import NotFoundScreen from "../screens/NotFoundScreen";
-import TabOneScreen from "../screens/DashboardScreen";
-import SettingsScreen from "../screens/SettingsScreen";
+import DashboardScreen from "../screens/DashboardScreen";
 import { RootStackParamList, RootTabParamList } from "../types";
 import LinkingConfiguration from "./LinkingConfiguration";
 
@@ -49,7 +46,7 @@ function RootNavigator() {
     <Stack.Navigator>
       <Stack.Screen
         name="Root"
-        component={HomeScreen}
+        component={DashboardScreen}
         options={{ headerShown: false }}
       />
     </Stack.Navigator>
