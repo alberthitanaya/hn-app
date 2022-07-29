@@ -9,6 +9,7 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "package": "expo install",
+    "tunnel": "expo start --tunnel",
     "test": "node_modules/.bin/jest test/**/*.spec.js"
   },
   "jest": {

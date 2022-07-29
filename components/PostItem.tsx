@@ -73,7 +73,11 @@ export const PostItem = ({
       <Avatar
         Component={() => {
           return (
-            <Pressable onPress={onPressComment}>
+            <Pressable
+              onPress={onPressComment}
+              style={{ paddingHorizontal: 8 }}
+              hitSlop={8}
+            >
               <View style={{ alignItems: "center" }}>
                 <Icon
                   name="comment"

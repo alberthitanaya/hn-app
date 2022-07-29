@@ -1,5 +1,12 @@
 import React from "react";
-import { Dimensions, FlatList, Pressable, View } from "react-native";
+import {
+  Dimensions,
+  FlatList,
+  Platform,
+  Pressable,
+  Share,
+  View,
+} from "react-native";
 import { Icon } from "react-native-elements";
 import RenderHTML from "react-native-render-html";
 import Colors from "../constants/Colors";
@@ -9,11 +16,31 @@ import { Text } from "./Themed";
 
 interface CommentsListProps {
   postId: number;
+  postUrl: string;
   onClose: () => void;
 }
-export const CommentsList = ({ postId, onClose }: CommentsListProps) => {
+export const CommentsList = ({
+  postId,
+  onClose,
+  postUrl,
+}: CommentsListProps) => {
   const { status, data, error, isFetching } = useComments(postId);
   const theme = useColorScheme();
+
+  const onShare = async () => {
+    try {
+      const result = await Share.share({
+        message: `See this post I found on Hacker News! ${postUrl}`,
+      });
+      if (result.action === Share.sharedAction) {
+        if (result.activityType) {
+          // shared with activity type of result.activityType
+        }
+      }
+    } catch (error) {
+      alert(error.message);
+    }
+  };
 
   return (
     <View style={{ flex: 1 }}>
@@ -25,15 +52,25 @@ export const CommentsList = ({ postId, onClose }: CommentsListProps) => {
           alignItems: "center",
         }}
       >
-        <Text style={{ color: Colors[theme].background, fontSize: 24 }}>
+        <Text style={{ color: Colors[theme].text, fontSize: 24 }}>
           Comments
         </Text>
-        <Pressable onPress={onClose} style={{ padding: 8 }}>
-          <Icon name="close" type="material" color={Colors[theme].background} />
-        </Pressable>
+        <View style={{ flexDirection: "row" }}>
+          <Pressable onPress={onShare} style={{ padding: 8 }}>
+            <Icon
+              name={Platform.OS === "ios" ? "ios-share" : "share"}
+              type="material"
+              color={Colors[theme].text}
+            />
+          </Pressable>
+          <Pressable onPress={onClose} style={{ padding: 8 }}>
+            <Icon name="close" type="material" color={Colors[theme].text} />
+          </Pressable>
+        </View>
       </View>
       <FlatList
         style={{ flex: 1, paddingHorizontal: 20 }}
+        contentContainerStyle={{ paddingVertical: 20 }}
         data={data?.comments && data.comments.length > 0 ? data.comments : []}
         renderItem={({ item }) => {
           const commentArray = [];
@@ -44,16 +81,13 @@ export const CommentsList = ({ postId, onClose }: CommentsListProps) => {
               level: obj.level,
               user: obj.user,
               time_ago: obj.time_ago,
+              points: obj.points,
             });
             obj.comments.forEach((comment) => {
-              if (comment.comments.length > 0) {
-                iterate(comment);
-              }
+              iterate(comment);
             });
           };
           iterate(item);
-          console.log("yo");
-          console.log(commentArray);
 
           return (
             <>
@@ -62,7 +96,7 @@ export const CommentsList = ({ postId, onClose }: CommentsListProps) => {
                   <Text
                     style={{
                       fontWeight: "bold",
-                      color: Colors[theme].background,
+                      color: Colors[theme].text,
                     }}
                   >
                     {comment.user} {comment.time_ago}

@@ -1,36 +1,22 @@
-import React, {
-  useCallback,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-} from "react";
+import React, { useEffect, useState } from "react";
 import {
   ActivityIndicator,
   Dimensions,
   FlatList,
   SafeAreaView,
   StyleSheet,
-  Text,
   View,
 } from "react-native";
 import { RootTabScreenProps } from "../types";
-import { useNavigation } from "@react-navigation/core";
-import AsyncStorage from "@react-native-async-storage/async-storage";
 import { usePosts } from "../hooks/usePosts";
 import { PostItem } from "../components/PostItem";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { SearchBar } from "react-native-elements";
 import * as WebBrowser from "expo-web-browser";
 import Modal from "react-native-modal";
-import Colors from "../constants/Colors";
 import useColorScheme from "../hooks/useColorScheme";
 import { CommentsList } from "../components/CommentsList";
-
-interface GraphValues {
-  timestamp: number;
-  value: number;
-}
+import { Text } from "../components/Themed";
 
 export default function DashboardScreen({
   navigation,
@@ -41,6 +27,7 @@ export default function DashboardScreen({
   const [filteredData, setFilteredData] = useState([]);
   const [isModalVisible, setModalVisible] = useState(false);
   const [postId, setPostId] = useState(0);
+  const [postUrl, setPostUrl] = useState("");
   const theme = useColorScheme();
 
   useEffect(() => {
@@ -68,11 +55,17 @@ export default function DashboardScreen({
         if (status === "success") {
           return (
             <View>
+              <View style={{ paddingHorizontal: 20, paddingVertical: 8 }}>
+                <Text style={{ fontSize: 20, fontWeight: "bold" }}>
+                  Hacker News
+                </Text>
+              </View>
               <SearchBar
                 platform="default"
                 placeholder="Type Here..."
                 onChangeText={(text) => setSearchTerm(text)}
                 value={searchTerm}
+                lightTheme={theme === "light"}
               />
               <FlatList
                 data={
@@ -89,6 +82,7 @@ export default function DashboardScreen({
                       onPressComment={() => {
                         setModalVisible(true);
                         setPostId(item.id);
+                        setPostUrl(item.url);
                       }}
                     />
                   );
@@ -114,11 +108,12 @@ export default function DashboardScreen({
         <View
           style={{
             flex: 1,
-            backgroundColor: Colors[theme].tint,
+            backgroundColor: "grey",
             borderRadius: 8,
           }}
         >
           <CommentsList
+            postUrl={postUrl}
             postId={postId}
             onClose={() => setModalVisible(false)}
           />
