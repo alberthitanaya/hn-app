@@ -7,6 +7,7 @@ import React, {
 } from "react";
 import {
   ActivityIndicator,
+  Dimensions,
   FlatList,
   SafeAreaView,
   StyleSheet,
@@ -21,6 +22,10 @@ import { PostItem } from "../components/PostItem";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { SearchBar } from "react-native-elements";
 import * as WebBrowser from "expo-web-browser";
+import Modal from "react-native-modal";
+import Colors from "../constants/Colors";
+import useColorScheme from "../hooks/useColorScheme";
+import { CommentsList } from "../components/CommentsList";
 
 interface GraphValues {
   timestamp: number;
@@ -34,6 +39,9 @@ export default function DashboardScreen({
   const insets = useSafeAreaInsets();
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredData, setFilteredData] = useState([]);
+  const [isModalVisible, setModalVisible] = useState(false);
+  const [postId, setPostId] = useState(0);
+  const theme = useColorScheme();
 
   useEffect(() => {
     if (data) {
@@ -78,7 +86,10 @@ export default function DashboardScreen({
                       onPressPost={async () => {
                         await WebBrowser.openBrowserAsync(item.url);
                       }}
-                      onPressComment={() => {}}
+                      onPressComment={() => {
+                        setModalVisible(true);
+                        setPostId(item.id);
+                      }}
                     />
                   );
                 }}
@@ -87,6 +98,32 @@ export default function DashboardScreen({
           );
         }
       })()}
+      <Modal
+        isVisible={isModalVisible}
+        presentationStyle={"fullScreen"}
+        onBackdropPress={() => setModalVisible(false)}
+        style={{
+          width: "100%",
+          marginHorizontal: 0,
+          marginBottom: 0,
+          marginTop: 70,
+        }}
+        deviceHeight={Dimensions.get("screen").height}
+        deviceWidth={Dimensions.get("screen").width}
+      >
+        <View
+          style={{
+            flex: 1,
+            backgroundColor: Colors[theme].tint,
+            borderRadius: 8,
+          }}
+        >
+          <CommentsList
+            postId={postId}
+            onClose={() => setModalVisible(false)}
+          />
+        </View>
+      </Modal>
     </SafeAreaView>
   );
 }

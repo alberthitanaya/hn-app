@@ -21,8 +21,9 @@ export const PostItem = ({
       containerStyle={{
         backgroundColor: Colors[theme].background,
       }}
+      onPress={onPressPost}
     >
-      <ListItem.Content onPress={onPressPost}>
+      <ListItem.Content>
         <ListItem.Content
           style={{
             flex: 1,
